@@ -1,0 +1,25 @@
+
+<?php
+$grade = "B";
+
+switch ($grade) {
+    case "A":
+        echo "Excellent!";
+        break;
+
+    case "B":
+        echo "Very Good!";
+        break;
+
+    case "C":
+        echo "Good!";
+        break;
+
+    case "D":
+        echo "Needs Improvement.";
+        break;
+
+    default:
+        echo "Invalid grade.";
+}
+?>
